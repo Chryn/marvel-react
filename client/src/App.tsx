@@ -61,7 +61,6 @@ handlePageChange = (e: any, pageInfo: any) => {
         </Dimmer>
       );
     }
-    else {
       return (
         <div className="App">
           <Grid columns={4} className="Gridou">
@@ -76,7 +75,6 @@ handlePageChange = (e: any, pageInfo: any) => {
         </div>
       </div>
     );
-    }
   }
 }
 
